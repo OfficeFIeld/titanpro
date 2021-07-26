@@ -1601,7 +1601,7 @@
                      </div>
                      <div class="copyright-wrap">
                         <div class="copyright">
-                           Copyright 2021 Blutube. Built by Themes Awesome. 
+                           
                         </div>
                      </div>
                      <div class="footer-social">
