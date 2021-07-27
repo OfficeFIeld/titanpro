@@ -220,7 +220,7 @@
       <script type='text/javascript' src='<?= $js_url ?>jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
       <script type='text/javascript' src='<?= $js_url ?>love-it.js' id='love-it-js'></script>
       <script type='text/javascript' src='<?= $js_url ?>cookies.js' id='jquery-coookies-js'></script>
-      <script type='text/javascript' src='<?= $js_url ?>public.js?ver=1.0.0' id='blutube-js'></script>
+      <script type='text/javascript' src='<?= $js_url ?>public.js?ver=1.0.0' ></script>
       <!-- <script type='application/json' id='wpp-json'>
          /*{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/blutube.themesawesome.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","ID":628,"token":"cfcf769a38","lang":0,"debug":0}*/
          </script> -->
@@ -242,7 +242,7 @@
             <div class="header-left text-left clearfix">
                <div class="head-item logo-image logo-head">
                   <a href="javascript:void(0)">
-                  <img src="<?= $img_url ?>logo.jpg" alt="TitanPro" width="200"/>
+                  <img src="<?= $img_url ?>logo.png" alt="TitanPro" width="200"/>
                   </a>
                </div>
                <input id="main-menu-state" type="checkbox" />
@@ -321,14 +321,14 @@
                   <div class="search-wrap head-info-item">
                      <form method="get" class="searchform" action="#" role="search">
                         <input type="search" class="field" name="s" value="" id="s" placeholder="Search Video..." />
-                        <input type="hidden" name="post_type" value="blutube-video" />
+                        <input type="hidden" name="post_type" />
                         <button type="submit" class="submit search-button open" value=""><i class="fa fa-search"></i></button>
                      </form>
                   </div>
                   <div class="call-btn head-info-item">
                      <div class="item-wrapper">
                         <!-- <a href="../myaccount.html" class="button-basic add-video"><i class="fa fa-video-camera"></i> Upload</a> -->
-                        <a href="../myaccount.html" class="sign-log">Sign In</a>
+                        <a href="javascript:void(0)" class="sign-log">Sign In</a>
                      </div>
                   </div>
                </div>
@@ -1212,7 +1212,7 @@
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                        <div class="elementor-element elementor-element-c7aa3b5 elementor-widget elementor-widget-heading" data-id="c7aa3b5" data-element_type="widget" data-widget_type="heading.default">
                                           <div class="elementor-widget-container">
-                                             <h2 class="elementor-heading-title elementor-size-default">Latest News</h2>
+                                             <h2 class="elementor-heading-title elementor-size-default">Categories</h2>
                                           </div>
                                        </div>
                                        <div class="elementor-element elementor-element-cb903dc elementor-widget__width-initial elementor-widget elementor-widget-spacer" data-id="cb903dc" data-element_type="widget" data-widget_type="spacer.default">
@@ -1235,120 +1235,134 @@
                                              <div class="wrapper-inner-blog">
                                                 <div class="post-image">
                                                    <a href="javascript:void(0)">
-                                                   <img width="500" height="333" src="<?= $img_url ?>features9.jpg" class="attachment- size- wp-post-image" alt="" loading="lazy" data-no-retina="" srcset="https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features9.jpg 500w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features9-300x200.jpg 300w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features9-50x33.jpg 50w" sizes="(max-width: 500px) 100vw, 500px" /> </a>
+                                                   <img width="500" height="333" src="<?= $img_url ?>stock.jpg" class="attachment- size- wp-post-image" alt="Stock" loading="lazy" data-no-retina="" sizes="(max-width: 500px) 100vw, 500px" /> </a>
                                                 </div>
                                                 <div class="inner-content">
                                                    <div class="author-wrap">
-                                                      <img src="<?= $img_url ?>pp9-150x150.jpg" alt="Anneke Leitz" data-no-retina />
-                                                      <span>by <a href="javascript:void(0)"> Anneke Leitz</a></span>
                                                    </div>
                                                    <h2 class="post-title">
                                                       <a href="javascript:void(0)">
-                                                      Personalities no&#8230; Being wherein wrong the to the table </a>
+                                                      Stock </a>
                                                    </h2>
                                                    <div class="date-meta">
-                                                      <div class="swap">April 21, 2021</div>
+                                                      <!-- <div class="swap">April 21, 2021</div> -->
                                                    </div>
                                                    <div class="excerpt">
-                                                      Sisters sometimes have testimony each all has safe sort any word at to a... 
+                                                      Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet
                                                    </div>
-                                                   <div class="meta-top"><a href="javascript:void(0)" rel="category tag">Event</a> <a href="javascript:void(0)" rel="category tag">News</a></div>
+                                                   <div class="meta-top">
+                                                   	<!-- <a href="javascript:void(0)" rel="category tag">Event</a> -->
+                                                   	 <a href="javascript:void(0)" rel="category tag">Browse More</a>
+                                                   	</div>
                                                 </div>
                                              </div>
                                           </div>
                                           <a href="javascript:void(0)" class="float-link"></a>
                                        </div>
                                     </div>
+                                    
+
+									<div class="blog-item column column-4">
+                                       <div class="wrapper">
+                                          <div class="post-content">
+                                             <div class="wrapper-inner-blog">
+                                                <div class="post-image">
+                                                   <a href="javascript:void(0)">
+                                                   <img width="500" height="333" src="<?= $img_url ?>market_analysis.jpg" class="attachment- size- wp-post-image" alt="" loading="lazy" data-no-retina="" sizes="(max-width: 500px) 100vw, 500px" /> </a>
+                                                </div>
+                                                <div class="inner-content">
+                                                   <div class="author-wrap">
+                                                      <!-- <img src="<?= $img_url ?>market_analysis.jpg" alt="Market Analysis" data-no-retina /> -->
+                                                   </div>
+                                                   <h2 class="post-title">
+                                                      <a href="javascript:void(0)">
+                                                      Market Analysis </a>
+                                                   </h2>
+                                                   <div class="date-meta">
+                                                      <!-- <div class="swap">April 21, 2021</div> -->
+                                                   </div>
+                                                   <div class="excerpt">
+                                                      Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet
+                                                   </div>
+                                                   <div class="meta-top">
+                                                   	<!-- <a href="javascript:void(0)" rel="category tag">Event</a> -->
+                                                   	 <a href="javascript:void(0)" rel="category tag">Browse More</a>
+                                                   	</div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <a href="javascript:void(0)" class="float-link"></a>
+                                       </div>
+                                    </div>
+
                                     <div class="blog-item column column-4">
                                        <div class="wrapper">
                                           <div class="post-content">
                                              <div class="wrapper-inner-blog">
                                                 <div class="post-image">
                                                    <a href="javascript:void(0)">
-                                                   <img width="800" height="632" src="<?= $img_url ?>features8.jpg" class="attachment- size- wp-post-image" alt="" loading="lazy" data-no-retina="" srcset="https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features8.jpg 800w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features8-300x237.jpg 300w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features8-768x607.jpg 768w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features8-50x40.jpg 50w" sizes="(max-width: 800px) 100vw, 800px" /> </a>
+                                                   <img width="500" height="333" src="<?= $img_url ?>forex.jpg" class="attachment- size- wp-post-image" alt="" loading="lazy" data-no-retina="" sizes="(max-width: 500px) 100vw, 500px" /> </a>
                                                 </div>
                                                 <div class="inner-content">
                                                    <div class="author-wrap">
-                                                      <img src="<?= $img_url ?>pp11-150x150.jpg" alt="Akim Pushkin" data-no-retina />
-                                                      <span>by <a href="javascript:void(0)"> Akim Pushkin</a></span>
+                                                      <!-- <img src="<?= $img_url ?>forex.jpg" alt="Forex" data-no-retina /> -->
                                                    </div>
                                                    <h2 class="post-title">
                                                       <a href="javascript:void(0)">
-                                                      The once technology advised with two a the design gone </a>
+                                                      Forex </a>
                                                    </h2>
                                                    <div class="date-meta">
-                                                      <div class="swap">April 21, 2021</div>
+                                                      <!-- <div class="swap">April 21, 2021</div> -->
                                                    </div>
                                                    <div class="excerpt">
-                                                      The to attempt, noting issues there would careful for no presentations. And overgrown intentionally... 
+                                                      Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet
                                                    </div>
-                                                   <div class="meta-top"><a href="javascript:void(0)" rel="category tag">News</a> <a href="javascript:void(0)" rel="category tag">Update</a></div>
+                                                   <div class="meta-top">
+                                                   	<!-- <a href="javascript:void(0)" rel="category tag">Event</a> -->
+                                                   	 <a href="javascript:void(0)" rel="category tag">Browse More</a>
+                                                   	</div>
                                                 </div>
                                              </div>
                                           </div>
                                           <a href="javascript:void(0)" class="float-link"></a>
                                        </div>
                                     </div>
+
                                     <div class="blog-item column column-4">
                                        <div class="wrapper">
                                           <div class="post-content">
                                              <div class="wrapper-inner-blog">
                                                 <div class="post-image">
                                                    <a href="javascript:void(0)">
-                                                   <img width="800" height="533" src="<?= $img_url ?>features7.jpg" class="attachment- size- wp-post-image" alt="" loading="lazy" data-no-retina="" srcset="https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features7.jpg 800w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features7-300x200.jpg 300w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features7-768x512.jpg 768w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features7-50x33.jpg 50w" sizes="(max-width: 800px) 100vw, 800px" /> </a>
+                                                   <img width="500" height="333" src="<?= $img_url ?>due.jpg" class="attachment- size- wp-post-image" alt="" loading="lazy" data-no-retina="" sizes="(max-width: 500px) 100vw, 500px" /> </a>
                                                 </div>
                                                 <div class="inner-content">
                                                    <div class="author-wrap">
-                                                      <img src="<?= $img_url ?>pp2-1-150x150.jpg" alt="Jimmy Rilley" data-no-retina />
-                                                      <span>by <a href="javascript:void(0)"> Jimmy Rilley</a></span>
+                                                      <!-- <img src="<?= $img_url ?>due.jpg" alt="Due Dilegence" data-no-retina /> -->
                                                    </div>
                                                    <h2 class="post-title">
                                                       <a href="javascript:void(0)">
-                                                      The good this concept lamps, furnished scarfs, ability distance and </a>
+                                                      Due Dilegence </a>
                                                    </h2>
                                                    <div class="date-meta">
-                                                      <div class="swap">April 21, 2021</div>
+                                                      <!-- <div class="swap">April 21, 2021</div> -->
                                                    </div>
                                                    <div class="excerpt">
-                                                      He problem usual. Gods bale examples the uninspired, he the so have her the... 
+                                                      Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet Lorem Ipsum Dolor Set Amet
                                                    </div>
-                                                   <div class="meta-top"><a href="javascript:void(0)" rel="category tag">News</a> <a href="javascript:void(0)" rel="category tag">Update</a></div>
+                                                   <div class="meta-top">
+                                                   	<!-- <a href="javascript:void(0)" rel="category tag">Event</a> -->
+                                                   	 <a href="javascript:void(0)" rel="category tag">Browse More</a>
+                                                   	</div>
                                                 </div>
                                              </div>
                                           </div>
                                           <a href="javascript:void(0)" class="float-link"></a>
                                        </div>
                                     </div>
-                                    <div class="blog-item column column-4">
-                                       <div class="wrapper">
-                                          <div class="post-content">
-                                             <div class="wrapper-inner-blog">
-                                                <div class="post-image">
-                                                   <a href="javascript:void(0)">
-                                                   <img width="800" height="533" src="<?= $img_url ?>features6.jpg" class="attachment- size- wp-post-image" alt="" loading="lazy" data-no-retina="" srcset="https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features6.jpg 800w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features6-300x200.jpg 300w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features6-768x512.jpg 768w, https://blutube.themesawesome.com/wp-content/uploads/sites/162/2021/04/features6-50x33.jpg 50w" sizes="(max-width: 800px) 100vw, 800px" /> </a>
-                                                </div>
-                                                <div class="inner-content">
-                                                   <div class="author-wrap">
-                                                      <img src="<?= $img_url ?>pp10-150x150.jpg" alt="Lucas Stalone" data-no-retina />
-                                                      <span>by <a href="javascript:void(0)"> Lucas Stalone</a></span>
-                                                   </div>
-                                                   <h2 class="post-title">
-                                                      <a href="javascript:void(0)">
-                                                      Go of knows, from ancient but think then a parts </a>
-                                                   </h2>
-                                                   <div class="date-meta">
-                                                      <div class="swap">April 13, 2021</div>
-                                                   </div>
-                                                   <div class="excerpt">
-                                                      Back and I the and space frame. Both by is by day. Boss&#8217;s of... 
-                                                   </div>
-                                                   <div class="meta-top"><a href="javascript:void(0)" rel="category tag">News</a></div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <a href="javascript:void(0)" class="float-link"></a>
-                                       </div>
-                                    </div>
+
+
+
                                  </div>
                                  <script type="text/javascript">
                                     (function($) {
@@ -1392,7 +1406,7 @@
                            <div id="custom_html-2" class="widget_text widget-footer widget_custom_html">
                               <div class="textwidget custom-html-widget">
                                  <a href="javascript:void(0)">
-                                 <img src="../wp-content/uploads/sites/162/2021/05/logo-blutube-35.png" alt="Footer Logo" />
+                                 <img src="<?= $img_url ?>logo.png" alt="TitanPro" width="200"/>
                                  </a>
                                  <p style="margin-top: 20px;">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta finibus justo, vestibulum finibus justo gravida ac. Phasellus hendrerit elementum turpis, ac ornare lectus imperdiet sed.
@@ -1413,7 +1427,7 @@
                                     <div class="inner-post-vid">
                                        <div class="post-image">
                                           <a href="javascript:void(0)">
-                                             <img src="<?= $img_url ?>animation7atiny.jpg" alt="Torn wonder, which a behind never as own pretty kind" data-no-retina />
+                                             <img src="<?= $img_url ?>KICK_O_STOCKS.jpg" alt="7/11 interview with @kickostocks (OTCmethod.com)" data-no-retina />
                                              <div class="play-button-hover">
                                                 <i class="fa fa-play play-button"></i>
                                              </div>
@@ -1422,11 +1436,11 @@
                                        <div class="latest-video-content">
                                           <h4 class="video-title">
                                              <a href="javascript:void(0)">
-                                             Torn wonder, which a behind never as own pretty kind </a>
+                                             7/11 interview with @kickostocks (OTCmethod.com)</a>
                                           </h4>
                                           <span class="author-name">
                                           <a href="javascript:void(0)" title="Lucas Stalone" rel="author">
-                                          Lucas Stalone </a>
+                                          TheOTCclub </a>
                                           </span>
                                        </div>
                                     </div>
@@ -1435,7 +1449,7 @@
                                     <div class="inner-post-vid">
                                        <div class="post-image">
                                           <a href="javascript:void(0)">
-                                             <img src="<?= $img_url ?>autos3atiny.jpg" alt="Self-Hosted Video" data-no-retina />
+                                             <img src="<?= $img_url ?>ant_n_teddy_1.webp" alt="The Halt Episode 6: Incredible Bob Interview" data-no-retina />
                                              <div class="play-button-hover">
                                                 <i class="fa fa-play play-button"></i>
                                              </div>
@@ -1444,11 +1458,11 @@
                                        <div class="latest-video-content">
                                           <h4 class="video-title">
                                              <a href="javascript:void(0)">
-                                             Self-Hosted Video </a>
+                                             The Halt Episode 6: Incredible Bob Interview </a>
                                           </h4>
                                           <span class="author-name">
                                           <a href="javascript:void(0)" title="Anneke Leitz" rel="author">
-                                          Anneke Leitz </a>
+                                          Ant & Teddy </a>
                                           </span>
                                        </div>
                                     </div>
@@ -1457,7 +1471,7 @@
                                     <div class="inner-post-vid">
                                        <div class="post-image">
                                           <a href="javascript:void(0)">
-                                             <img src="<?= $img_url ?>fl1c.jpg" alt="Appointed decorated the croissants thought" data-no-retina />
+                                             <img src="<?= $img_url ?>1000_bitcoin_shorts.webp" alt="Bitcoin hits 1000% SHORTS!!" data-no-retina />
                                              <div class="play-button-hover">
                                                 <i class="fa fa-play play-button"></i>
                                              </div>
@@ -1466,11 +1480,33 @@
                                        <div class="latest-video-content">
                                           <h4 class="video-title">
                                              <a href="javascript:void(0)">
-                                             Appointed decorated the croissants thought </a>
+                                             Bitcoin hits 1000% SHORTS!! </a>
                                           </h4>
                                           <span class="author-name">
                                           <a href="javascript:void(0)" title="Jimmy Rilley" rel="author">
-                                          Jimmy Rilley </a>
+                                          Ryan Rozbiani </a>
+                                          </span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="post-item video-item">
+                                    <div class="inner-post-vid">
+                                       <div class="post-image">
+                                          <a href="javascript:void(0)">
+                                             <img src="<?= $img_url ?>cash_kreator.webp" alt="CBBT (Cerebain Biotech) Stock Analysis and Due Diligence" data-no-retina />
+                                             <div class="play-button-hover">
+                                                <i class="fa fa-play play-button"></i>
+                                             </div>
+                                          </a>
+                                       </div>
+                                       <div class="latest-video-content">
+                                          <h4 class="video-title">
+                                             <a href="javascript:void(0)">
+                                             CBBT (Cerebain Biotech) Stock Analysis and Due Diligence </a>
+                                          </h4>
+                                          <span class="author-name">
+                                          <a href="javascript:void(0)" title="Jimmy Rilley" rel="author">
+                                          Cash Kreator </a>
                                           </span>
                                        </div>
                                     </div>
@@ -1485,33 +1521,11 @@
                               </div>
                               <div class="sidebar-categories-video">
                                  <ul>
-                                    <li>
-                                       <a href="javascript:void(0)">Animation</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">Autos &amp; Vehicles</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">Blog</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">Comedy</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">E-Sport</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">Editor Choice</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">Education</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">Entertainment</a>
-                                    </li>
-                                    <li>
-                                       <a href="javascript:void(0)">Events</a>
-                                    </li>
+                                    <?php foreach($cat as $category) { ?>
+                                       <li>
+                                          <a href="javascript:void(0)"><?= $category ?></a>
+                                       </li>
+                                    <?php } ?>
                                  </ul>
                               </div>
                            </div>
@@ -1525,60 +1539,60 @@
                                  <div class="author-creator">
                                     <div class="creator-item">
                                        <div class="author-img">
-                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>pp9-150x150.jpg" alt="Anneke Leitz" data-no-retina></a>
+                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>otc_club.jpg" alt="TheOTCclub" data-no-retina></a>
                                        </div>
                                        <div class="author-info">
                                           <h5 class="author-name">
                                              <a href="javascript:void(0)">
-                                             Anneke Leitz </a>
+                                             TheOTCclub </a>
                                           </h5>
                                           <span>21 Videos</span>
                                        </div>
                                     </div>
                                     <div class="creator-item">
                                        <div class="author-img">
-                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>pp11-150x150.jpg" alt="Akim Pushkin" data-no-retina></a>
+                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>ant_n_teddy.jpg" alt="Ant & Teddy" data-no-retina></a>
                                        </div>
                                        <div class="author-info">
                                           <h5 class="author-name">
                                              <a href="javascript:void(0)">
-                                             Akim Pushkin </a>
+                                             Ant & Teddy </a>
                                           </h5>
                                           <span>12 Videos</span>
                                        </div>
                                     </div>
                                     <div class="creator-item">
                                        <div class="author-img">
-                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>pp10-150x150.jpg" alt="Lucas Stalone" data-no-retina></a>
+                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>ryan_rozbiani.jpg" alt="Ryan Rozbiani" data-no-retina></a>
                                        </div>
                                        <div class="author-info">
                                           <h5 class="author-name">
                                              <a href="javascript:void(0)">
-                                             Lucas Stalone </a>
+                                             Ryan Rozbiani </a>
                                           </h5>
                                           <span>18 Videos</span>
                                        </div>
                                     </div>
                                     <div class="creator-item">
                                        <div class="author-img">
-                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>pp2-1-150x150.jpg" alt="Jimmy Rilley" data-no-retina></a>
+                                          <a href="javascript:void(0)"><img class="author" src="<?= $img_url ?>cash_kreator.jpg" alt="Cash Kreator" data-no-retina></a>
                                        </div>
                                        <div class="author-info">
                                           <h5 class="author-name">
                                              <a href="javascript:void(0)">
-                                             Jimmy Rilley </a>
+                                             Cash Kreator </a>
                                           </h5>
                                           <span>21 Videos</span>
                                        </div>
                                     </div>
                                     <div class="creator-item">
                                        <div class="author-img">
-                                          <a href="javascript:void(0)"><img alt='' src='https://secure.gravatar.com/avatar/5188ce89078203663bae878400f36360?s=50&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/5188ce89078203663bae878400f36360?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' loading='lazy' /></a>
+                                          <a href="javascript:void(0)"><img alt='Radio Silent Play' src='<?= $img_url ?>radio_silent.jpg' class='avatar avatar-50 photo' height='50' width='50' loading='lazy' /></a>
                                        </div>
                                        <div class="author-info">
                                           <h5 class="author-name">
                                              <a href="javascript:void(0)">
-                                             edu forni </a>
+                                             Radio Silent Play </a>
                                           </h5>
                                           <span>0 Videos</span>
                                        </div>
