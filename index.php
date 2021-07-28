@@ -365,7 +365,7 @@
                               <div class="elementor-widget-container">
                                  <div class="post-loop">
                                     <div class="video-wrap style-5 ele rand-5915">
-                                       <div class="swiper-container">
+                                       <div class="swiper-container" style="max-height: 650px;">
                                           <div class="swiper-wrapper">
                                              <div class="video-item swiper-slide">
                                                 <div class="post-wrap">
@@ -374,10 +374,10 @@
                                                          <div class="play-button-hover">
                                                             <i class="fa fa-play play-button"></i>
                                                          </div>
-                                                         <img src="<?= $img_url ?>KICK_O_STOCKS.jpg" alt="7/11 interview with @kickostocks (OTCmethod.com)" data-no-retina />
+                                                         <img src="<?= $img_url ?>spotlight_1.jpg" alt="7/11 interview with @kickostocks (OTCmethod.com)" data-no-retina />
                                                       </a>
                                                    </div>
-                                                   <div class="post-content">
+                                                   <!-- <div class="post-content">
                                                       <div class="post-author clearfix">
                                                          <img src="<?= $img_url ?>otc_club.jpg" data-no-retina alt="TheOTCclub">
                                                          <span><a href="javascript:void(0)">TheOTCclub</a></span>
@@ -387,7 +387,7 @@
                                                          <span class="views">203 Views</span>
                                                          <span class="hours">3 months ago</span>
                                                       </div>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </div>
                                              <div class="video-item swiper-slide">
@@ -397,10 +397,10 @@
                                                          <div class="play-button-hover">
                                                             <i class="fa fa-play play-button"></i>
                                                          </div>
-                                                         <img src="<?= $img_url ?>ant_n_teddy_1.webp" alt="The Halt Episode 6: Incredible Bob Interview" data-no-retina />
+                                                         <img src="<?= $img_url ?>spotlight_3.jpg" alt="The Halt Episode 6: Incredible Bob Interview" data-no-retina />
                                                       </a>
                                                    </div>
-                                                   <div class="post-content">
+                                                   <!-- <div class="post-content">
                                                       <div class="post-author clearfix">
                                                          <img src="<?= $img_url ?>ant_n_teddy.jpg" data-no-retina alt="Ant & Teddy">
                                                          <span><a href="javascript:void(0)">Ant & Teddy</a></span>
@@ -410,7 +410,7 @@
                                                          <span class="views">176 Views</span>
                                                          <span class="hours">3 months ago</span>
                                                       </div>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </div>
                                              <div class="video-item swiper-slide">
@@ -420,10 +420,10 @@
                                                          <div class="play-button-hover">
                                                             <i class="fa fa-play play-button"></i>
                                                          </div>
-                                                         <img src="<?= $img_url ?>1000_bitcoin_shorts.webp" alt="Bitcoin hits 1000% SHORTS!!" />
+                                                         <img src="<?= $img_url ?>spotlight_4.jpg" alt="Bitcoin hits 1000% SHORTS!!" />
                                                       </a>
                                                    </div>
-                                                   <div class="post-content">
+                                                   <!-- <div class="post-content">
                                                       <div class="post-author clearfix">
                                                          <img src="<?= $img_url ?>ryan_rozbiani.jpg" data-no-retina alt="Ryan Rozbiani">
                                                          <span><a href="javascript:void(0)">Ryan Rozbiani</a></span>
@@ -433,7 +433,7 @@
                                                          <span class="views">232 Views</span>
                                                          <span class="hours">3 months ago</span>
                                                       </div>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </div>
                                              
@@ -445,10 +445,10 @@
                                                          <div class="play-button-hover">
                                                             <i class="fa fa-play play-button"></i>
                                                          </div>
-                                                         <img src="<?= $img_url ?>cash_kreator.webp" alt="CBBT (Cerebain Biotech) Stock Analysis and Due Diligence" data-no-retina />
+                                                         <img src="<?= $img_url ?>spotlight_2.jpg" alt="CBBT (Cerebain Biotech) Stock Analysis and Due Diligence" data-no-retina />
                                                       </a>
                                                    </div>
-                                                   <div class="post-content">
+                                                   <!-- <div class="post-content">
                                                       <div class="post-author clearfix">
                                                          <img src="<?= $img_url ?>cash_kreator.jpg" data-no-retina alt="Cash Kreator">
                                                          <span><a href="javascript:void(0)">Cash Kreator</a></span>
@@ -458,7 +458,7 @@
                                                          <span class="views">161 Views</span>
                                                          <span class="hours">3 months ago</span>
                                                       </div>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </div>
                                           </div>
@@ -486,14 +486,14 @@
                                               },
                                               
                                               768: {
-                                              slidesPerView: 3,
+                                              slidesPerView: 1,
                                               spaceBetween: 20,
                                               
                                               },
                                        
                                               1025: {
-                                              slidesPerView: 4,
-                                              spaceBetween: 20,
+                                              slidesPerView: 1.23,
+                                              spaceBetween: 15,
                                               },
                                        
                                             },
